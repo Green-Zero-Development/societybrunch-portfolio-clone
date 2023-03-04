@@ -1,0 +1,57 @@
+footer {
+    background-color: #2a2a2e;
+}
+  
+.footer-menu-single {
+    font-family: 'Panchang-Semibold';
+    color: #F0F0F0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.footer-menu:last-child {
+    margin-right: 0px !important;
+}
+
+.footer-menu-single a {
+    padding: 12px 48px 12px 48px;
+    letter-spacing: 2px;
+    transition: 0.25s;
+}
+
+.footer-menu-single a:hover {
+    background-color: #C74A27;
+    transition: 0.25s;
+}
+
+.post-footer {
+    background-color:#545457;
+}
+
+@media (min-width: 416px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 2000px) {
+
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.societybrunch.co
+
+# Sitemaps
+Sitemap: https://www.societybrunch.co/sitemap.xml

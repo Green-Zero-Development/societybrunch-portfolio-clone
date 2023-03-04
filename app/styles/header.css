@@ -1,0 +1,204 @@
+.topbar {
+  background-color: #2A2A2E;
+  display: none;
+}
+
+.topbar-text {
+  font-family: 'nitti', monospace;
+  font-size: 18px;
+  color: #F0F0F0;
+}
+
+header {
+  
+}
+
+.header-container {
+  width: 100%;
+  padding: 40px 16px 40px 16px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #E6552D;
+  z-index: 999;
+  transition: .25s;
+}
+
+.desktop-logo {
+  
+}
+
+.desktop-menu {
+    display: none;
+}
+
+.desktop-menu-single {
+  font-family: 'Panchang-Semibold';
+  color: #2A2A2E;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.desktop-menu:last-child {
+  margin-right: 0px !important;
+}
+
+.desktop-menu-single a {
+  padding: 12px 20px 12px 20px;
+  transition: 0.25s;
+}
+
+.desktop-menu-single a:hover {
+  background-color: #FFDA96;
+  transition: 0.25s;
+}
+
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  overflow-y: scroll;
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(1.1);
+  background-color: #f0f0f0;
+  z-index: 998;
+  transition: .25s;
+}
+
+.mobile-items {
+  position: static;
+  padding-bottom: 200px;
+}
+
+.mobile-items ul {
+  padding: 56px 12px 0px 12px;
+}
+
+.mobile-items {
+  position: relative;
+  z-index: 998;
+}
+
+.mobile-menu-header {
+  border-bottom: 1px solid #E6552D;
+}
+
+.mobile-menu-logo {
+  padding: 32px 16px 32px 16px;
+}
+
+.mobile-menu-single {
+  font-family: 'Panchang-Semibold';
+  color: #2A2A2E;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 40px;
+}
+
+.mobile-menu-single a {
+  padding-bottom: 40px;
+}
+
+.mobile-social-icon-box {
+  display: flex;
+  margin-left: -15px;
+}
+
+.mobile-social-icon {
+  width: 40px;
+  margin: 15px;
+}
+
+.mobile-menu-open {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 48px auto;
+  padding: 10px;
+  z-index: 999;
+}
+
+.mobile-menu-close {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 48px auto;
+  padding: 10px;
+  z-index: 998;
+}
+
+.mobile-menu-active {
+    pointer-events: initial !important;
+    opacity: 1 !important;
+    transform: scale(1.0) !important;
+    transition: .25s;
+}
+
+.active-menu-toggle {
+  opacity: 1 !important;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 10px !important;
+}
+
+.mobile-menu-header {
+  padding: 6px 6px 6px 6px;
+}
+
+@media (min-width: 416px) {
+   
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+  .topbar {
+    display: flex;
+  }
+  .desktop-logo {
+    margin-left: 0;
+  }
+    .desktop-menu {
+      display: flex;
+    }
+    .mobile-menu-open {
+      display: none;
+    }
+    .mobile-menu-close {
+      display: none;
+    }
+    
+}
+
+@media (min-width: 992px) {
+  .header-container {
+    padding: 40px;
+  }
+  .desktop-menu-single {
+    font-size: 14px;
+  }
+  .desktop-menu-single a {
+    padding: 24px 32px 24px 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menu-item {
+    font-size: 20px;
+  }
+  .desktop-menu-single {
+    letter-spacing: 2px;
+  }
+}
+
+@media (min-width: 1440px) {
+    
+}
+
+@media (min-width: 2000px) {
+    
+}

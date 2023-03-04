@@ -1,0 +1,335 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Panchang-Semibold';
+  src: url('http://localhost:8080/fonts/Panchang-Semibold.woff2') format('woff2'),
+       url('http://localhost:8080/fonts/Panchang-Semibold.woff') format('woff');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Panchang-Semibold';
+  src: url('https://societybrunch.vercel.app/fonts/Panchang-Semibold.woff2') format('woff2'),
+       url('https://societybrunch.vercel.app/fonts/Panchang-Semibold.woff') format('woff');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+html {
+  font-family: 'nitti', monospace;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #2A2A2E;
+}
+
+h1 {
+  font-family: 'rigatoni', sans-serif;
+}
+
+h2 {
+  font-family: 'rigatoni', sans-serif;
+}
+
+h3 {
+  font-family: 'rigatoni', sans-serif;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+a {
+
+}
+
+.button {
+  width: 100%;
+  background-color: #f0f0f0;
+  border: 1px solid #2A2A2E;
+  font-family: 'Panchang-Semibold';
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  box-shadow: 10px 10px 0px 0px rgba(255,197,173,0.75);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(255,197,173,0.75);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(255,197,173,0.75);
+  transition: 0.25s;
+}
+
+.button:hover {
+  background-color: #FFC5AD;
+  box-shadow: 0px 0px 0px 0px rgba(255,197,173,0.75);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(255,197,173,0.75);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(255,197,173,0.75);
+  transform: translate(10px, 10px);
+  transition: 0.25s;
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+
+}
+
+address {
+
+}
+
+blockquote {
+
+}
+
+code {
+
+}
+
+label {
+
+}
+
+input {
+
+}
+
+input::placeholder {
+
+}
+
+textarea {
+
+}
+
+textarea::placeholder {
+
+}
+
+select {
+
+}
+
+input[type="submit"] {
+
+}
+
+img {
+
+}
+
+.catering-cta-section {
+  overflow: clip;
+}
+
+.catering-section-circle {
+  width: 400px;
+}
+
+.instagram-section {
+  background-color: #FEFEFE;
+}
+
+.instagram-sep {
+  max-width: 1180px;
+}
+
+.instagram-title {
+  font-family: 'Panchang-Semibold';
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.instagram-feed {
+  background-color: #FEFEFE;
+  padding-bottom: 40px;
+}
+
+.eapps-instagram-feed-posts-grid-load-more {
+  display: none;
+}
+
+.eapps-instagram-feed-posts-item-image-wrapper {
+  box-shadow: 30px 30px 0 -15px #ffda96;
+}
+
+.eapps-instagram-feed-posts-item {
+  margin-bottom: 40px !important;
+}
+
+.eapps-instagram-feed-posts-item-media {
+  background: rgb(255,255,255);
+  transform: translate(-15px,-35px);
+}
+
+.eapps-instagram-feed-posts-item-image-icon {
+  display: none !important;
+}
+
+.hero-single-pic-section {
+  border-bottom: 1px solid #E6552D;
+}
+
+.menus-display-section {
+    overflow: clip;
+}
+
+.menu-display-img {
+  object-fit: cover;
+}
+
+.gallery-img {
+  height: 440px;
+  object-fit: cover;
+}
+
+.el-input {
+  font-family: 'nitti', monospace;
+  color: #2A2A2E;
+  border: 1px solid #E6552D;
+}
+
+.el-input__inner {
+  padding: 10px;
+}
+
+.el-textarea {
+  font-family: 'nitti', monospace;
+  color: #2A2A2E;
+  border: 1px solid #E6552D;
+}
+
+.el-textarea__inner {
+  height: 192px !important;
+  padding: 10px;
+}
+
+.cog-page__navigation {
+  margin: auto;
+}
+
+.cog-button {
+  width: auto;
+  background-color: #f0f0f0;
+  border: 1px solid #2A2A2E;
+  font-family: 'Panchang-Semibold';
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 20px 80px 20px 80px;
+  margin: 30px auto 0 auto !important;
+  text-align: center;
+  box-shadow: 10px 10px 0px 0px rgba(255,197,173,0.75);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(255,197,173,0.75);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(255,197,173,0.75);
+  transition: 0.25s;
+}
+
+.cog-button:hover {
+  background-color: #FFC5AD;
+  box-shadow: 0px 0px 0px 0px rgba(255,197,173,0.75);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(255,197,173,0.75);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(255,197,173,0.75);
+  transform: translate(10px, 10px);
+  transition: 0.25s;
+}
+
+.checkered-border {
+  background-image: url('https://inside.societybrunch.co/wp-content/uploads/2023/01/society-checked-border.svg');
+}
+
+.splide__arrow {
+  background: #FFC5AD !important;
+  opacity: 1;
+}
+
+.splide__arrow:disabled {
+  opacity: 0.3 !important;
+}
+
+.safari-border-fix {
+  transform: translateZ(0px);
+}
+
+.gallery-img-section {
+  overflow: clip;
+}
+
+.about-cta-section {
+  overflow: clip;
+}
+
+@media (min-width: 416px) {
+  .button {
+    width: 304px;
+  }
+}
+
+@media (min-width: 576px) {
+  
+}
+
+@media (min-width: 768px) {
+  .catering-cta-content-section {
+    border-left: 1px solid #E6552D;
+  }
+  .instagram-feed {
+    background-color: transparent;
+    padding-bottom: 0px;
+  }
+  .eapps-instagram-feed-posts-item-link {
+    background: linear-gradient(238deg, rgba(255,255,255,1) 0%, rgba(240, 240, 240, 1) 45%);
+  }
+  .eapps-instagram-feed-posts-item {
+    margin-bottom: 0px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 1200px) {
+  .gallery-img-section {
+    overflow: visible;
+  }
+  .about-cta-section {
+    overflow: visible;
+  }
+}
+
+@media (min-width: 1440px) {
+  
+}
+
+@media (min-width: 2000px) {
+  .menus-display-section {
+    overflow-x: visible;
+  }
+}
